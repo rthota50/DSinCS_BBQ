@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "System.Linq": "4.0.1-beta-23225"
+  },
+  "commands": {
+    "run": "run"
+  },
+  "frameworks": {
+    "dnx451": {},
+    "dnxcore50": {
+      "dependencies": {
+        "System.Console": "4.0.0-beta-*",
+        "System.Collections": "4.0.10-beta-23019"
+      }
+    }
+  }
+}
